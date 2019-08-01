@@ -17,10 +17,10 @@ def line(customers)
 end
 
 def take_a_number(line, name)
-  if line.length == 0 
+  if line.length == 0
     puts "Welcome, #{name}. You are number 1 in line."
-  else 
-    puts "Welcome, #{name}. You are number #{line.length + 1} in line." 
+  else
+    puts "Welcome, #{name}. You are number #{line.length + 1} in line."
   end
   line << name
 end
